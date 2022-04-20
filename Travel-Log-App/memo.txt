@@ -1,0 +1,19 @@
+Travel Log App
+
+[アプリ概要]
+旅行の記録を他人に共有できるアプリ
+
+[できること]
+他人の旅行の記録の参照
+自身の旅行記録の追加・更新・削除
+旅行記録には下記を含むことが可能
+ - 場所
+ - 旅行先の画像
+ - 旅費
+ - 観光名所
+ - 行くべき場所
+ - access of community, ease of transportation, safety etc...
+
+[参考になるサイト]
+
+https://triptriple.com/ja
