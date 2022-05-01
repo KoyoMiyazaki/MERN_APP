@@ -1,6 +1,6 @@
 import { combineReducers } from "redux";
 
-import travelLog from "./travelLog.js";
+import travelLog from "./travelLog";
 
 export default combineReducers({
   travelLog,
