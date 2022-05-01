@@ -4,7 +4,7 @@ import {
   CREATE,
   UPDATE,
   DELETE,
-} from "../constants/actionType.js";
+} from "../constants/actionType";
 
 export default (travelLogs = [], action) => {
   switch (action.type) {
@@ -21,6 +21,6 @@ export default (travelLogs = [], action) => {
     case DELETE:
       return travelLogs.filter((travelLog) => travelLog._id !== action.payload);
     default:
-      break;
+      return travelLogs;
   }
 };
